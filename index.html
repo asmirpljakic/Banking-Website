@@ -13,20 +13,21 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Bankist | When Banking meets Minimalist</title>
 
+    <!-- JavaScript -->
     <script defer src="js/script.js"></script>
   </head>
   <body>
-    <header class="header">
-      <nav class="nav">
-        <a href="#">
+    <header class="header" id="start">
+      <nav class="nav" id="nav">
+        <a href="#start">
           <img
             src="img/logo.png"
+            href="#start"
             alt="Bankist logo"
             class="nav__logo"
             id="logo"
-            designer="Asmir"
-            data-version-number="3.0"
-        /></a>
+          />
+        </a>
         <ul class="nav__links">
           <li class="nav__item">
             <a class="nav__link" href="#section--1">Features</a>
@@ -38,7 +39,7 @@
             <a class="nav__link" href="#section--3">Testimonials</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+            <a class="nav__link nav__link--btn btn--show-modal" href="#nav"
               >Open account</a
             >
           </li>
@@ -279,7 +280,6 @@
             </address>
           </div>
         </div>
-
         <button class="slider__btn slider__btn--left">&larr;</button>
         <button class="slider__btn slider__btn--right">&rarr;</button>
         <div class="dots"></div>
@@ -320,11 +320,7 @@
           <a class="footer__link" href="#">Contact Us</a>
         </li>
       </ul>
-
-      <a href="#"
-        ><img src="img/icon.png" alt="Logo" class="footer__logo" />
-      </a>
-
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
       <p class="footer__copyright">
         &copy; Copyright by
         <a
