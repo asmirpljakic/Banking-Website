@@ -524,7 +524,7 @@ h4 {
 .section--sign-up {
   background-color: #37383d;
   border-top: none;
-  /* border-bottom: 1px solid #444;  */ /*Uklanjamo onu zadnju liniju. */
+  /* border-bottom: 1px solid #444;  */ /*add/remove bottom line. */
   text-align: center;
   padding: 10rem 3rem;
 }
@@ -656,16 +656,4 @@ h4 {
 .hidden {
   visibility: hidden;
   opacity: 0;
-}
-
-/* COOKIE MESSAGE */
-.cookie-message {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 100%;
-  background-color: white;
-  color: #bbb;
-  font-size: 1.5rem;
-  font-weight: 400;
 }
